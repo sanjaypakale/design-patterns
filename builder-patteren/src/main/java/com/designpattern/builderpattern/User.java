@@ -1,6 +1,10 @@
 package com.designpattern.builderpattern;
 
+/*
+Builder pattern aims to “Separate the construction of a complex object from its representation
+so that the same construction process can create multiple different representations.”
 
+ */
 public class User {
     private final int id;
     private String firstName;
