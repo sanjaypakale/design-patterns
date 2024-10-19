@@ -2,9 +2,9 @@ package com.designpattern.factorypattern;
 
 public class CarFactory {
 
-    public  static  Car buildCar(CarType carType){
+    public static Car buildCar(CarType carType) {
         Car car = null;
-        switch (carType){
+        switch (carType) {
             case SEDAN:
                 car = new SedanCar(carType);
                 break;
